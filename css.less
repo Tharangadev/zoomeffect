@@ -1,0 +1,62 @@
+body {
+    font-family: open sans;
+    .container {
+        position: relative;
+        background: #eee;
+        padding: 1em;
+        box-sizing: border-box;
+    }
+    .zoom_block {
+        box-shadow: 1px 1px 5px -2px #111;
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        bottom: -50px;
+        right: -50px;
+    }
+    .details_row {
+        .product_image {
+            width: 50%;
+            float: left;
+            .overflow_zoom {
+                .zoom_block {
+                    width: 200px;
+                    height: 200px;
+                    position: absolute;
+                    bottom: -50px;
+                    right: -50px;
+                }
+            }
+                .mega_image {
+                    width: 500px;
+                    height: auto;
+                    img {
+                        width: inherit;
+                    }
+                }
+            }
+            .product_image_dis {
+
+                width: 50%;
+                float: left;
+                padding: 0 1em;
+                box-sizing: border-box;
+                h3 
+                {
+                    border-bottom: 1px solid #111;
+                    text-transform: uppercase;
+                }
+                p
+                {
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+       
+    }
+    :after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+}
